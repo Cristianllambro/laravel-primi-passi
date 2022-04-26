@@ -7,6 +7,14 @@
     <title>Laravel</title>
 </head>
 <body>
-    <h1>Contact</h1>
+    <header>
+        <ul>
+            <li><a href="{{ route('home-sito') }}">Home</a></li>
+            <li><a href="{{ route('contatti-sito') }}">Contact</a></li>
+            <li><a href="{{ route('info-sito') }}">Info</a></li>
+            <li><a href="{{ route('about-sito') }}">About</a></li>
+        </ul>
+    </header>
+    <h1>Contact Boolean for Developers</h1>
 </body>
 </html>

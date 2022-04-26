@@ -9,10 +9,10 @@
 <body>
     <header>
         <ul>
-            <li><a href="{{ route(contact) }}">Home</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Info</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="{{ route('home-sito') }}">Home</a></li>
+            <li><a href="{{ route('contatti-sito') }}">Contact</a></li>
+            <li><a href="{{ route('info-sito') }}">Info</a></li>
+            <li><a href="{{ route('about-sito') }}">About</a></li>
         </ul>
     </header>
     <h1>Hello world</h1>
